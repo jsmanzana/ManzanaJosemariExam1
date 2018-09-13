@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="328dp"
+        android:layout_height="147dp"
+        android:background="@color/colorAccent"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="383dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="328dp"
+        android:layout_height="147dp"
+        android:background="@color/colorAccent"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="27dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="328dp"
+        android:layout_height="147dp"
+        android:background="@color/colorAccent"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="210dp">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/jennieimg"
+        style="@style/jennieimage"
+
+        app:srcCompat="@drawable/jennie"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/jennietitle"
+        style="@style/jennietitle"
+
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/jennie1"
+        style="@style/jennietext1"
+
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <TextView
+        android:id="@+id/jisootitle"
+        style="@style/jisootitle"
+
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <TextView
+        android:id="@+id/jisoo1"
+        style="@style/jisootext1"
+
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <ImageView
+        android:id="@+id/jisooimg"
+        style="@style/jisooimage"
+
+        app:srcCompat="@drawable/jisoo"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <TextView
+        android:id="@+id/lisatitle"
+        style="@style/lisatitle"
+
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <ImageView
+        android:id="@+id/lisaimg"
+        style="@style/lisaimage"
+
+        app:srcCompat="@drawable/lisa"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <TextView
+        android:id="@+id/lisa1"
+        style="@style/lisatext1"
+
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+
+</android.support.constraint.ConstraintLayout>
