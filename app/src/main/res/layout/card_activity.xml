@@ -7,97 +7,110 @@
     android:layout_height="match_parent">
 
     <FrameLayout
-        android:layout_width="328dp"
-        android:layout_height="147dp"
+        android:layout_width="338dp"
+        android:layout_height="158dp"
         android:background="@color/colorAccent"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="383dp">
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="371dp">
 
+        <TextView
+            android:id="@+id/jennie1"
+            style="@style/jennietext1"
+
+            android:layout_height="102dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintTop_toTopOf="@+id/jennietitle"
+            tools:layout_editor_absoluteX="34dp" />
+
+        <ImageView
+            android:id="@+id/jennieimg"
+            style="@style/jennieimage"
+
+            android:layout_width="550dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/jennie"
+            tools:layout_editor_absoluteX="236dp"
+            tools:layout_editor_absoluteY="27dp" />
+
+        <TextView
+            android:id="@+id/jennietitle"
+            style="@style/jennietitle"
+
+            android:layout_width="242dp"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="27dp" />
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="328dp"
-        android:layout_height="147dp"
+        android:id="@+id/frameLayout2"
+        android:layout_width="334dp"
+        android:layout_height="165dp"
         android:background="@color/colorAccent"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="27dp">
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="16dp">
 
+        <TextView
+            android:id="@+id/jisootitle"
+            style="@style/jisootitle"
+
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="210dp" />
+
+        <TextView
+            android:id="@+id/jisoo1"
+            style="@style/jisootext1"
+
+            android:layout_width="234dp"
+            android:layout_height="145dp"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="245dp" />
+
+        <ImageView
+            android:id="@+id/jisooimg"
+            style="@style/jisooimage"
+
+            android:layout_width="537dp"
+            android:layout_height="165dp"
+            app:srcCompat="@drawable/jisoo"
+            tools:layout_editor_absoluteX="229dp"
+            tools:layout_editor_absoluteY="210dp" />
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="328dp"
+        android:id="@+id/frameLayout"
+        android:layout_width="336dp"
         android:layout_height="147dp"
         android:background="@color/colorAccent"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="210dp">
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="202dp">
 
+        <TextView
+            android:id="@+id/lisatitle"
+            style="@style/lisatitle"
+
+            android:layout_width="60dp"
+            android:layout_height="37dp"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="383dp" />
+
+        <ImageView
+            android:id="@+id/lisaimg"
+            style="@style/lisaimage"
+
+            android:layout_width="536dp"
+            app:srcCompat="@drawable/lisa"
+            tools:layout_editor_absoluteX="233dp"
+            tools:layout_editor_absoluteY="383dp" />
+
+        <TextView
+            android:id="@+id/lisa1"
+            style="@style/lisatext1"
+
+            android:layout_width="116dp"
+            android:layout_height="85dp"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="421dp" />
     </FrameLayout>
-
-    <ImageView
-        android:id="@+id/jennieimg"
-        style="@style/jennieimage"
-
-        app:srcCompat="@drawable/jennie"
-        tools:layout_editor_absoluteX="236dp"
-        tools:layout_editor_absoluteY="27dp" />
-
-    <TextView
-        android:id="@+id/jennietitle"
-        style="@style/jennietitle"
-
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="27dp" />
-
-    <TextView
-        android:id="@+id/jennie1"
-        style="@style/jennietext1"
-
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="70dp" />
-
-    <TextView
-        android:id="@+id/jisootitle"
-        style="@style/jisootitle"
-
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="210dp" />
-
-    <TextView
-        android:id="@+id/jisoo1"
-        style="@style/jisootext1"
-
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="245dp" />
-
-    <ImageView
-        android:id="@+id/jisooimg"
-        style="@style/jisooimage"
-
-        app:srcCompat="@drawable/jisoo"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="210dp" />
-
-    <TextView
-        android:id="@+id/lisatitle"
-        style="@style/lisatitle"
-
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="383dp" />
-
-    <ImageView
-        android:id="@+id/lisaimg"
-        style="@style/lisaimage"
-
-        app:srcCompat="@drawable/lisa"
-        tools:layout_editor_absoluteX="233dp"
-        tools:layout_editor_absoluteY="383dp" />
-
-    <TextView
-        android:id="@+id/lisa1"
-        style="@style/lisatext1"
-
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="421dp" />
 
 
 </android.support.constraint.ConstraintLayout>
